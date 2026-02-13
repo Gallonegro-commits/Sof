@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Sofía ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h1 class="fade-in">Te Amo, Sofía ❤️</h1>
+<p class="subtitle fade-in-delay">Siempre tú, siempre nosotros</p>
+
+<!-- Contador de tiempo juntos -->
+<div class="counter fade-in-delay-2">
+<h3>Nuestro tiempo juntos:</h3>
+<div class="counter-grid">
+<div class="counter-item">
+<span class="counter-number" id="days">0</span>
+<span class="counter-label">días</span>
+</div>
+<div class="counter-item">
+<span class="counter-number" id="hours">0</span>
+<span class="counter-label">horas</span>
+</div>
+<div class="counter-item">
+<span class="counter-number" id="minutes">0</span>
+<span class="counter-label">minutos</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Contenedores -->
+<div id="floating-messages"></div>
+<div id="hearts"></div>
+<div id="particles"></div>
+
+<!-- Botón de música -->
+<button id="music-toggle" class="music-btn">
+<span id="music-icon">🎵</span>
+</button>
+
+<!-- Música -->
+<audio id="music" loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
