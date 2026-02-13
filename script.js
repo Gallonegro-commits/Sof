@@ -158,8 +158,7 @@ eres tú la que quiero,
 no una versión editada,
 sino la real.
 
-La que ríe feo,
-la que se enoja,
+La que se enoja,
 la que me ama.
 
 Esa eres tú, Sofi.
@@ -414,3 +413,4 @@ if (e.target === document.body || e.target.classList.contains('container')) {
 createHeartBurst(e.clientX, e.clientY);
 }
 });
+
